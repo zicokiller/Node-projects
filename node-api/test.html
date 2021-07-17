@@ -1,0 +1,6 @@
+<script>
+    (async () => {
+        const data = await fetch("http://localhost:5500/posts");
+        console.log(data, await data.json());
+    })();
+</script>
